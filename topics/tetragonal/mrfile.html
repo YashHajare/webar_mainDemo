@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Compositor Layer Example • A-Frame</title>
+    <meta name="description" content="Hello, World! • A-Frame">
+    <script src="https://cdn.jsdelivr.net/gh/aframe/aframe-extras@master/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@master/dist/aframe-master.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.4.x/dist/aframe-environment-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras@6.2.0/dist/aframe-extras.min.js"></script> <!-- GLTF Loader -->
+    <script src="page-turn.js"></script>
+    <script src="toggle-layer.js"></script>
+    <script src="button.js"></script>
+    
+  </head>
+  <body>
+    <a-scene environment="preset: forest" raycaster="objects: [button];" cursor="rayOrigin: mouse">
+      <a-assets>
+        <!-- Video Source -->
+        <video id="bunny" autoplay preload="auto" loop crossorigin="anonymous" width="1920" height="1080">
+          <source src="vid.mp4"></source>
+        </video>
+        <img id="panel" crossOrigin="anonymous" src="newpanel.png">
+        <img id="ghibli" crossOrigin="anonymous" src="slide2.png">
+
+        <!-- 3D Model Asset -->
+        <a-asset-item id="customModel" src="./model.glb" ></a-asset-item> <!-- Replace 'model.glb' with your model file -->
+      </a-assets>
+
+      <!-- Video Screen -->
+      <a-entity
+        layer="src: #panel; width: 1.920; height: 1.038"
+        position="-7 1.8 4">
+      </a-entity>
+
+      <!-- Custom Model Positioned to the Right of the Screen -->
+      <a-entity
+        gltf-model="#customModel"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+        animation-mixer
+        position="1 2.5 0"
+
+        scale="0.5 0.5 0.5" 
+        rotation="0 45 0"> <!-- Adjust angle if needed -->
+        
+      </a-entity>
+      <a-camera look-controls position="-7 1.5 5.5"></a-camera>
+      <!-- Hand Controls -->
+      <a-entity id="leftHand" toggle-layer laser-controls="hand: left" raycaster="objects: [button]"></a-entity>
+      <a-entity id="rightHand" toggle-layer laser-controls="hand: right" raycaster="objects: [button]"></a-entity>
+
+      <!-- Buttons -->
+      <a-entity page-turn="direction: forward" id="nextButton" button="label: Next" position="-6.5 1.1 4"></a-entity>
+      <a-entity page-turn="direction: backward" id="previousButton" button="label: Previous" position="-7.5 1.1 4"></a-entity>
+    </a-scene>
+
+    
+  </body>
+</html>
