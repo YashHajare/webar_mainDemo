@@ -13,9 +13,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Inject API Key
+      - name: Inject API Key as Environment Variable
         run: |
           echo "window.API_KEY = '${{ secrets.OPENAI_API_KEY }}';" > api-key.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Inject the API key as an environment variable
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
