@@ -17,7 +17,7 @@ jobs:
         run: |
           echo "window.API_KEY = '${{ secrets.OPENAI_API_KEY }}';" 
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Inject API key as an environment variable
+          window.OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Inject API key as an environment variable
 
       - name: Read env
         run: echo "my env value is  ${{ env.OPENAI_API_KEY }}"
