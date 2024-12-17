@@ -1,0 +1,135 @@
+<svg width="1920" height="1080" version="1.1" viewBox="0 0 508 285.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<radialGradient id="g" cx="163.27" cy="86.551" r="254" gradientTransform="matrix(1.2399 .63772 -.25731 .5002 -16.901 -31.298)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f9f9f9" offset="0"/>
+<stop stop-color="#e6e6e6" offset="1"/>
+</radialGradient>
+<linearGradient id="a">
+<stop stop-color="#fc0" offset="0"/>
+<stop stop-color="#fc0" offset=".24707"/>
+<stop stop-color="#fc0" stop-opacity=".50244" offset="1"/>
+</linearGradient>
+<radialGradient id="f" cx="60.92" cy="60.819" r="7.1221" gradientTransform="matrix(1.0433 1.5141 -1.7322 1.1936 122.06 152.93)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<radialGradient id="d" cx="60.92" cy="60.819" r="7.1221" gradientTransform="matrix(1.0433 1.5141 -1.7322 1.1936 122.06 294.98)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<radialGradient id="b" cx="60.92" cy="60.819" r="7.1221" gradientTransform="matrix(1.0433 1.5141 -1.7322 1.1936 236.33 294.98)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<radialGradient id="e" cx="60.92" cy="60.819" r="7.1221" gradientTransform="matrix(1.0433 1.5141 -1.7322 1.1936 236.33 152.93)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<radialGradient id="c" cx="60.92" cy="60.819" r="7.1221" gradientTransform="matrix(1.0433 1.5141 -1.7322 1.1936 200.94 318.83)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+</defs>
+<g>
+<rect transform="translate(0 -11.25)" x="5" y="16.25" width="498" height="275.75" fill="url(#g)" style="paint-order:stroke fill markers"/>
+</g>
+<g transform="translate(0 -11.25)">
+<g stroke="#000">
+<rect x="298.18" y="124.71" width="15.682" height="15.682" fill="none" stroke-width=".26458"/>
+<rect x="298.07" y="124.59" width="56.525" height="49.49" fill="none" stroke-width="1.3229"/>
+<circle transform="rotate(-90)" cx="-124.71" cy="298.18" r="7.6417" fill="#fc0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4821" style="paint-order:stroke fill markers"/>
+</g>
+<rect x="1.0831" y="16.25" width="501.92" height="37.486" fill="#f00" fill-rule="evenodd" opacity=".3" stroke-width=".26458"/>
+<g fill="#000000" font-family="'TeX Gyre Adventor'" font-size="8.4667px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+<text x="253.78268" y="41.705982" style="line-height:1.25" xml:space="preserve"><tspan x="253.78268" y="41.705982" font-size="19.756px" font-weight="bold" stroke-width=".26458" text-align="center" text-anchor="middle">Simple Orthorhombic Crystal Structure</tspan></text>
+<text x="251.6179" y="76.571732" style="line-height:1.25" xml:space="preserve"><tspan x="251.6179" y="84.47113" font-size="16.933px" stroke-width=".26458" text-align="center" text-anchor="middle"/></text>
+<text x="252.22148" y="59.595421" style="line-height:1.25" xml:space="preserve"><tspan x="252.22148" y="67.49482" font-size="14.111px" font-style="italic" stroke-width=".26458" text-align="center" text-anchor="middle"/></text>
+</g>
+<path d="m4.2534 53.342h499.47" fill="none" stroke="#000" stroke-width="2.6458"/>
+<path d="m254 52.808v240.82" fill="none" stroke="#000" stroke-width="2.6458"/>
+<g stroke-width=".26458" aria-label="a ≠ b ≠ c">
+<path d="m340.2 82.202v-14.072h-3.0988v1.8796c-1.1684-1.5494-2.5654-2.2098-4.5974-2.2098-4.1656 0-7.1628 3.1242-7.1628 7.4168 0 4.2418 2.9718 7.3152 7.0866 7.3152 1.9812 0 3.3274-0.635 4.6736-2.159v1.8288zm-3.2004-6.9342c0 2.3368-1.524 4.1656-4.0894 4.1656-2.4638 0-4.1656-1.6764-4.1656-4.1402 0-2.5654 1.7018-4.3942 4.1148-4.3942s4.1402 1.8034 4.1402 4.3688z" fill="#f00" stroke="#000" stroke-width=".26458"/>
+<path d="m362.31 79.941v-3.5052h-4.5974l0.5842-1.1684h4.0132v-3.5052h-2.2606l1.397-2.8448-3.1496-1.5748-2.159 4.4196h-6.3246v3.5052h4.5974l-0.5842 1.1684h-4.0132v3.5052h2.2606l-1.397 2.8448 3.1496 1.5748 2.159-4.4196z" fill="#f00" stroke="#000" stroke-width=".26458"/>
+<path d="m386.97 75.064c0-4.2418-3.048-7.4422-7.0866-7.4422-1.8288 0-3.0734 0.508-4.3688 1.8034v-5.9944h-3.3782v18.771h3.0988v-1.8034c1.4478 1.5494 2.794 2.1336 4.8768 2.1336 3.9624 0 6.858-3.2258 6.858-7.4676zm-3.4036 0.0254c0 2.5654-1.6764 4.3434-4.0894 4.3434-2.4384 0-4.1656-1.8034-4.1656-4.3688 0-2.54 1.7272-4.3434 4.0894-4.3434 2.413 0 4.1656 1.8542 4.1656 4.3688z" fill="#00f"/>
+<path d="m408.49 79.941v-3.5052h-4.5974l0.5842-1.1684h4.0132v-3.5052h-2.2606l1.397-2.8448-3.1496-1.5748-2.159 4.4196h-6.3246v3.5052h4.5974l-0.5842 1.1684h-4.0132v3.5052h2.2606l-1.397 2.8448 3.1496 1.5748 2.159-4.4196z" fill="#f00" stroke="#000" stroke-width=".26458"/>
+<path d="m432.21 77.579h-3.81c-0.8382 1.2954-1.8034 1.8542-3.2004 1.8542-2.3368 0-4.0894-1.8288-4.0894-4.2926s1.6764-4.2418 4.0132-4.2418c1.524 0 2.5908 0.635 3.2766 1.9304h3.81c-1.0922-3.2258-3.8862-5.0292-7.0866-5.0292-4.1656 0-7.4168 3.2258-7.4168 7.366 0 4.0894 3.3528 7.366 7.5184 7.366 3.2766 0 5.8166-1.8034 6.985-4.953z" fill="#008000"/>
+</g>
+<g fill="#fc0" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4821">
+<circle transform="rotate(-90)" cx="-124.71" cy="354.33" r="7.6417" style="paint-order:stroke fill markers"/>
+<circle transform="rotate(-90)" cx="-172.67" cy="354.33" r="7.6417" style="paint-order:stroke fill markers"/>
+<circle transform="rotate(-90)" cx="-172.67" cy="298.18" r="7.6417" style="paint-order:stroke fill markers"/>
+</g>
+<text x="280.42847" y="151.99318" fill="#000000" font-family="'TeX Gyre Adventor'" font-size="8.4667px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="280.42847" y="151.99318" fill="#ff0000" font-size="19.756px" font-weight="bold" stroke="#000000" stroke-width=".26458">a</tspan></text>
+<text x="320.56232" y="118.87753" fill="#0000ff" font-family="'TeX Gyre Adventor'" font-size="8.4667px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="320.56232" y="118.87753" fill="#0000ff" font-size="19.756px" font-weight="bold" stroke="#000000" stroke-width=".26458">b</tspan></text>
+<g transform="translate(9.4524 -232.01)">
+<g stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="80.261" cy="459.81" r="13.658" fill="#fc0" stroke-width="2.649" style="paint-order:stroke fill markers"/>
+<path d="m194.53 459.81h-114.27" fill="none" stroke-width="2.1167"/>
+<circle cx="194.53" cy="459.81" r="13.658" fill="#fc0" stroke-width="2.649" style="paint-order:stroke fill markers"/>
+</g>
+<g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1167">
+<path d="m44.873 483.66 35.388-23.853"/>
+<path d="m194.53 459.81-35.388 23.853h-114.27"/>
+<path d="m44.873 340.56v143.1"/>
+<path d="m159.45 340.56v143.34"/>
+<path d="m80.261 317.76v142.05"/>
+</g>
+<g stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="80.261" cy="317.76" r="13.658" fill="#fc0" stroke-width="2.649" style="paint-order:stroke fill markers"/>
+<path d="m194.53 317.76v142.05" fill="none" stroke-width="2.1167"/>
+<path d="m194.53 317.76h-114.27" fill="none" stroke-width="2.1167"/>
+<circle cx="194.53" cy="317.76" r="13.658" fill="#fc0" stroke-width="2.649" style="paint-order:stroke fill markers"/>
+</g>
+<circle cx="159.14" cy="483.66" r="13.658" fill="url(#c)" style="paint-order:stroke fill markers"/>
+<path d="m80.261 317.76-35.388 22.808m0 0 114.58-5e-3m0 0 35.08-22.803" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1167"/>
+<g>
+<circle cx="159.14" cy="483.66" r="13.658" fill="#fc0" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.649" style="paint-order:stroke fill markers"/>
+<circle cx="159.45" cy="340.56" r="13.658" fill="#fc0" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.649" style="paint-order:stroke fill markers"/>
+<circle cx="194.53" cy="317.76" r="13.658" fill="url(#e)" style="paint-order:stroke fill markers"/>
+<circle cx="194.53" cy="459.81" r="13.658" fill="url(#b)" style="paint-order:stroke fill markers"/>
+<circle cx="80.261" cy="459.81" r="13.658" fill="url(#d)" style="paint-order:stroke fill markers"/>
+<circle cx="44.873" cy="483.66" r="13.658" fill="#fc0" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.649" style="paint-order:stroke fill markers"/>
+<circle cx="80.261" cy="317.76" r="13.658" fill="url(#f)" style="paint-order:stroke fill markers"/>
+<circle cx="44.873" cy="340.56" r="13.658" fill="#fc0" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.649" style="paint-order:stroke fill markers"/>
+</g>
+</g>
+<g font-family="'TeX Gyre Adventor'" font-size="8.4667px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+<text x="58.188137" y="234.86455" fill="#000000" style="line-height:1.25" xml:space="preserve"><tspan x="58.188137" y="234.86455" fill="#ff0000" font-size="19.756px" font-weight="bold" stroke="#000000" stroke-width=".26458">a</tspan></text>
+<text x="139.08118" y="222.50423" fill="#0000ff" style="line-height:1.25" xml:space="preserve"><tspan x="139.08118" y="222.50423" fill="#0000ff" font-size="19.756px" font-weight="bold" stroke="#000000" stroke-width=".26458">b</tspan></text>
+<text x="95.200325" y="163.19589" fill="#008000" style="line-height:1.25" xml:space="preserve"><tspan x="95.200325" y="163.19589" fill="#008000" font-size="19.756px" font-weight="bold" stroke="#000000" stroke-width=".26458">c</tspan></text>
+</g>
+<g stroke="#000">
+<g>
+<g stroke-width=".79375">
+<path d="m56.148 254.64-1.0163-1.4919 34.112-23.167-1.2499-1.8783-34.128 23.177-1.0189-1.4864-6.6355 8.067z" fill="#f00"/>
+<path d="m92.817 89.54-1.805-0.0245 0.17103 136.63-2.2562-6e-3 -0.17099-136.65-1.8019-0.0297 3.0672-9.9849z" fill="#008000"/>
+<path d="m197.92 230.79 0.0245-1.805-104.41 0.17103 6e-3 -2.2562 104.43-0.17099 0.0297-1.8019 9.9849 3.0672z" fill="#00f"/>
+</g>
+<circle cx="89.885" cy="228.08" r="2.735" stroke-width="2.5786"/>
+</g>
+<rect x="347.93" y="203.64" width="55.386" height="63.466" fill="none" stroke-width="1.3229"/>
+</g>
+<g fill="#fc0" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4821">
+<circle transform="rotate(-90)" cx="-203.58" cy="347.87" r="7.6417" style="paint-order:stroke fill markers"/>
+<circle transform="rotate(-90)" cx="-203.58" cy="403.16" r="7.6417" style="paint-order:stroke fill markers"/>
+<circle transform="rotate(-90)" cx="-267.17" cy="403.16" r="7.6417" style="paint-order:stroke fill markers"/>
+<circle transform="rotate(-90)" cx="-267.17" cy="347.87" r="7.6417" style="paint-order:stroke fill markers"/>
+</g>
+<rect transform="scale(1,-1)" x="347.72" y="-267.55" width="15.682" height="15.682" fill="none" stroke="#000" stroke-width=".26458"/>
+<path d="m350.58 208.83-1.8051-0.0155-0.0217 59.093-2.2562 5e-3 0.0217-59.112-1.802-0.0207 3.017-10z" fill="#008000" stroke="#000" stroke-width=".79375"/>
+<text x="369.37283" y="286.69873" fill="#0000ff" font-family="'TeX Gyre Adventor'" font-size="8.4667px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="369.37283" y="286.69873" fill="#0000ff" font-size="19.756px" font-weight="bold" stroke="#000000" stroke-width=".26458">b</tspan></text>
+<text x="328.18469" y="240.12003" fill="#008000" font-family="'TeX Gyre Adventor'" font-size="8.4667px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="328.18469" y="240.12003" fill="#008000" font-size="19.756px" font-weight="bold" stroke="#000000" stroke-width=".26458">c</tspan></text>
+<rect transform="scale(-1,1)" x="-444.47" y="109.43" width="46.272" height="63.589" fill="none" stroke="#000" stroke-width="1.3229"/>
+<g fill="#fc0" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4821">
+<circle transform="matrix(0,-1,-1,0,0,0)" cx="-109.43" cy="-444.47" r="7.6417" style="paint-order:stroke fill markers"/>
+<circle transform="matrix(0,-1,-1,0,0,0)" cx="-109.43" cy="-398.2" r="7.6417" style="paint-order:stroke fill markers"/>
+<circle transform="matrix(0,-1,-1,0,0,0)" cx="-173.01" cy="-398.2" r="7.6417" style="paint-order:stroke fill markers"/>
+<circle transform="matrix(0,-1,-1,0,0,0)" cx="-173.01" cy="-444.47" r="7.6417" style="paint-order:stroke fill markers"/>
+</g>
+<g stroke="#000">
+<rect transform="scale(-1)" x="-444.62" y="-173.39" width="15.682" height="15.682" fill="none" stroke-width=".26458"/>
+<path d="m441.75 114.68 1.8051-0.0155 0.0217 59.093 2.2562 5e-3 -0.0217-59.112 1.802-0.0207-3.017-10z" fill="#008000" stroke-width=".79375"/>
+<path d="m402.78 176.07-0.0155-1.8051 42.737-0.0217 5e-3 -2.2562-42.756 0.0217-0.0207-1.802-10 3.017z" fill="#f00" stroke-width=".79375"/>
+</g>
+<g>
+<circle transform="scale(-1)" cx="-444.62" cy="-173.39" r="2.2963" stroke="#000" stroke-width="2.1649"/>
+<text x="416.35809" y="192.54288" fill="#000000" font-family="'TeX Gyre Adventor'" font-size="8.4667px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="416.35809" y="192.54288" fill="#ff0000" font-size="19.756px" font-weight="bold" stroke="#000000" stroke-width=".26458">a</tspan></text>
+<text x="451.7309" y="145.96414" fill="#008000" font-family="'TeX Gyre Adventor'" font-size="8.4667px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="451.7309" y="145.96414" fill="#008000" font-size="19.756px" font-weight="bold" stroke="#000000" stroke-width=".26458">c</tspan></text>
+</g>
+<g stroke="#000">
+<path d="m301.13 167.36-1.8051 0.0155-0.0217-42.737-2.2562-5e-3 0.0217 42.756-1.802 0.0207 3.017 10z" fill="#f00" stroke-width=".79375"/>
+<path d="m349.38 121.62 0.0155 1.8051-51.896 0.0217-5e-3 2.2562 51.915-0.0217 0.0207 1.802 10-3.017z" fill="#00f" stroke-width=".79375"/>
+<circle cx="298.18" cy="124.71" r="2.2963" stroke-width="2.1649"/>
+<path d="m398.31 264.26 0.0155 1.8051-51.896 0.0217-5e-3 2.2562 51.915-0.0217 0.0207 1.802 10-3.017z" fill="#00f" stroke-width=".79375"/>
+<circle transform="scale(1,-1)" cx="347.72" cy="-267.55" r="2.2963" stroke-width="2.1649"/>
+<path d="m168.92 224.93v5.9078" fill="none" stroke-width="2.1167"/>
+<path d="m92.997 108.54h-5.9078" fill="none" stroke-width="2.1167"/>
+</g>
+</g>
+<rect transform="scale(-1,1)" x="-505.5" y="2.5" width="503" height="280.75" fill="none" stroke="#000" stroke-linecap="round" stroke-width="5" style="paint-order:stroke fill markers"/>
+</svg>
