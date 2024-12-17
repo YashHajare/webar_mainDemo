@@ -19,6 +19,9 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Inject API key as an environment variable
 
+      - name: Read env
+        run: echo "my env value is  ${{ env.OPENAI_API_KEY }}"
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
