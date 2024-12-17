@@ -1,4 +1,4 @@
-name: Deploy Chatbot
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -10,20 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+    - name: Checkout Code
+      uses: actions/checkout@v3
 
-      - name: Inject API Key
-        run: |
-          echo "window.API_KEY = '${{ secrets.OPENAI_API_KEY }}';" 
-        env:
-          window.OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Inject API key as an environment variable
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
 
-      - name: Read env
-        run: echo "my env value is  ${{ env.OPENAI_API_KEY }}"
+    - name: Inject OpenAI API Key
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: |
+        echo "Injecting API key into index.html"
+        sed -i "s|{{API_KEY}}|$OPENAI_API_KEY|g" testing_gpt.html
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .  # Publish root directory (HTML files)
