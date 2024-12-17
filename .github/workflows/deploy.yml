@@ -13,11 +13,25 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Inject API Key
+      - name: Deploy using OpenAI API Key
         run: |
-          echo "window.API_KEY = '${{ secrets.OPENAI_API_KEY }}';" 
+          const apiKey = process.env.OPENAI_API_KEY;  # Access secret in your code
+          fetch('https://api.openai.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Authorization': `Bearer ${apiKey}`,
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              model: "text-davinci-003",
+              messages: [{ role: "user", content: "Your prompt here" }]
+            })
+          })
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Inject API key as an environment variable
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Secret injected from GitHub
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
