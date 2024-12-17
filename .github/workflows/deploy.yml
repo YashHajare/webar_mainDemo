@@ -3,7 +3,7 @@ name: Deploy Chatbot
 on:
   push:
     branches:
-      - main
+      - ayush
 
 jobs:
   deploy:
