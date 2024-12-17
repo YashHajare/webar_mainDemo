@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="api-key" content="{{ secrets.OPENAI_API_KEY }}">
   <title>Science Chatbot</title>
   <style>
     /* CSS: Styling for chatbot */
@@ -93,7 +94,7 @@
   </div>
 
   <script>
-    const apiKey =  window.OPENAI_API_KEY;
+    const apiKey =  document.querySelector('meta[name="api-key"]').content;
 
     const chatBox = document.getElementById("chat-box");
     const userInput = document.getElementById("user-input");
